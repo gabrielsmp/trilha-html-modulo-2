@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: rgb(90, 212, 216);
     display: flex;
     justify-content: center;
 }
@@ -11,7 +11,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(58, 209, 159);
 }
 .main {
     display: flex;
@@ -20,19 +20,61 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(90, 212, 216);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    display: flex;
+    justify-content: center; /* Alinhar horizontalmente o conteúdo no centro */
+    align-items: center;     /* Alinhar verticalmente o conteúdo no centro (opcional) */
+    height: 100px;           /* Ajuste a altura do cabeçalho conforme necessário */
+    background-color: rgb(255, 255, 255);
     min-height: 150px;
 }
+.header img {
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
 .content {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(29, 140, 155);
     min-height: 300px;
     padding: 20px;
+    color: #ffffff;
+}
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+#contato > * {
+    margin: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #000000;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 156, 160);
     min-height: 150px;
 }
